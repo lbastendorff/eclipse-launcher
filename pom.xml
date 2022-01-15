@@ -37,7 +37,9 @@
 	</licenses>
 
 	<properties>
-		<tycho.version>1.2.0</tycho.version>
+		<tycho.version>2.5.0</tycho.version>
+		<maven.compiler.source>11</maven.compiler.source>
+		<maven.compiler.target>11</maven.compiler.target>
 	</properties>
 
 	<organization>
@@ -79,7 +81,7 @@
                         <environment>
                             <os>macosx</os>
                             <ws>cocoa</ws>
-                            <arch>x86_64</arch>
+                            <arch>aarch64</arch>
                         </environment>
 					</environments>
                     <pomDependencies>consider</pomDependencies>
